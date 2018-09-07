@@ -1,6 +1,7 @@
+
 function forLoop(array) {
   for (let i = 0; i < 25; i++) {
-    if (i===1)  {
+    if (i === 1)  {
     array.push("I am 1 strange loop.");
    } else {
 
@@ -10,3 +11,24 @@ function forLoop(array) {
 }
 return array;
 }
+
+function whileLoop(n) {
+  let countdown = 100; {
+  while (countdown > 0);
+  console.log(--countdown);
+  }
+  return 'done';
+}
+
+
+ function doWhileLoop(array) {
+    i = i + 1;
+ }
+  do {
+    console.log();
+    incrementVariable();
+  }
+  while (array.length > 0 && maybeTrue());
+ 
+  return array;
+
